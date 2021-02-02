@@ -173,6 +173,7 @@ nav {
     opacity: 0;
     transform: translateY(-80px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0px);
@@ -249,7 +250,8 @@ nav {
   }
 }
 
-@media screen and (max-width: 360px), (max-height: 360px) {
+@media screen and (max-width: 360px),
+(max-height: 360px) {
   .laptop-select {
     display: none;
   }
